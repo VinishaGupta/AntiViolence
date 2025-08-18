@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="chatroom.css" rel="stylesheet">
+
+    <style>
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    position: fixed;
+    background-color: rgb(42, 42, 42);
+    
+    width: 350px;
+    top: 0;
+    
+    left: 0;  
+    color: white;  
+        
+}
+
+.right{
+    background-color: rgb(57, 57, 57);
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 360px;  
+
+}
+
+
+
+.right1b{
+    width: 300px;
+    
+    padding: 10px 20px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(96, 92, 92);
+    color: white;
+    
+}
+
+
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+/* .right1a{
+    width: 20px;
+    margin-right: 20px;
+    position: absolute; 
+    margin-left: -240px;
+    margin-bottom: -20px;
+    padding-top: 8px;
+    margin-right: 10px;
+    
+    
+    
+}
+     */
+
+     .right1{
+        margin-top: 20px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        
+     }
+
+     .left1{
+        
+        font-size: 30px;
+     }
+
+     body{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .left{
+        padding: 20px;
+     }
+
+     .left2a , .left3a, .left5a, .left6a{
+        margin-top: 25px;
+        padding: 10px;
+        width: 140px;
+        border-radius: 30px;
+        text-align: left;
+        padding-left: 17px;
+        border: none;
+        font-size: 16px;
+        background-color: rgb(96, 92, 92);
+        color: white;
+        
+     }
+
+
+
+.left3a{
+    width:280px;
+    border-radius: 10px;
+
+    /* pad */
+}
+
+.left4
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left5a, .left6a{
+    
+    width: 280px;
+}
+
+
+
+.left7{
+    margin-top: 30px;
+}
+
+.left7a{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(61, 57, 57);
+    
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.left7a:hover
+{
+    background-color: rgb(92, 92, 92);
+    transition: 0.3s;
+}
+
+
+.left5a:hover , .left6a:hover{
+background-color: black;
+transition: 0.3s;
+
+}
+
+.left2a:hover, .left3a:hover{
+    background-color: rgb(82, 82, 82);
+}
+
+.right1b{
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.right2{
+    display: flex;
+    flex-direction: row;
+}
+
+.right2a{
+    margin-right: 20px;
+}
+
+.right3{
+    display: flex;
+    flex-direction: row;
+}
+
+.right3b{
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: none;
+    margin: 10px;
+    margin-top: 40px;
+    padding: 16px;
+    font-weight: bold;
+    
+}
+
+.right3bb{
+margin-left: 33px;
+}
+
+.right3b:hover{
+background-color: rgb(98, 89, 89);
+color:white;
+transition: 0.3s;
+}
+
+.right2{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.right2b{
+    margin: 30px;
+}
+
+.right2a{
+    border-radius: 20px;
+    background-color: rgb(43, 43, 44);
+    width: 300px; 
+    height: 140px;
+}
+
+.right2a{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.right2a1{
+height: 100px;
+}
+
+.right2a11{
+    width: 55px;
+    height: 120px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.right2a2{
+    margin-top: 10px;
+    margin-left: 1px;
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.right2a22{
+    color: rgb(165, 167, 168);
+}
+
+.right2a24{
+    margin-top:20px;
+}
+
+.right2a21{
+    font-weight: bold;
+}
+
+.right2a:hover{
+    background-color: rgb(70, 70, 70);
+    transition: 0.3s;
+}
+
+.right2a22{
+    margin-bottom: 7px;
+    margin-top: 2px;
+}
+
+.abc{
+    margin-top: 37px;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="all">
+        <div class="left">
+            <div class="left1">
+                <img src="youtube-apps.svg" style="width: 25px; background-color: white; border-radius: 15px;" >
+                CHATROOM
+            </div>
+
+            <div class="left2">
+                <button class="left2a"><span style="font-size: 18px;">&#65291;</span> Add</button>
+            </div>
+            <div class="left3">
+                <button class="left3a"><span style="font-size: 18px;">&#65291;</span> Create chatroom</button>
+            </div>
+
+            <div class="left4">
+                <img src="images-2.jpeg" style="width: 20px; border-radius: 90px; margin-right: 10px;">
+
+                <span style="font-weight: bold;">Chats</span>
+
+            </div>
+
+            <div class="left7">
+                <div class="left7a">
+                    <div><img src="images/1.jpg" style="width: 50px; border-radius: 50px; padding:10px;"></div>
+                    <div style="align-items: center; text-align: center; padding-top: 25px;">Anti-Violence</div>
+                </div>
+
+                <div class="left7a">
+                    <div><img src="images/2.jpg" style="width: 50px; border-radius: 50px; padding:10px;"></div>
+                    <div style="align-items: center; text-align: center; padding-top: 25px;">Asian Crime Report</div>
+                </div>
+
+                <div class="left7a">
+                    <div><img src="images/3.jpg" style="width: 50px; height: 50px; border-radius: 50px; padding:10px;"></div>
+                    <div style="align-items: center; text-align: center; padding-top: 25px;">Violence Reduction Center</div>
+                </div>
+
+                <div class="left7a">
+                    <div><img src="images/4.jpg" style="width: 50px; height: 50px; border-radius: 50px; padding:10px;"></div>
+                    <div style="align-items: center; text-align: center; padding-top: 25px;">AVP</div>
+                </div>
+
+                
+
+                <!-- <div class="left7a"></div>
+                <div class="left7a"></div>
+                <div class="left7a"></div> -->
+            </div>
+
+            <div class="left5">
+                <a href="login.html"><button class="left5a">Sign in</button></a>
+            </div>
+
+            <div class="left6">
+                <a href="signin.html"><button class="left6a">Sign up</button></a>
+            </div>
+
+
+            
+            <div class="left8"></div>
+        </div>
+
+
+        <div class="right">
+
+            <div class="right1">
+                    <input type="text" class="right1b" placeholder="Search" style="margin-bottom: 35px;">
+                </div>
+                    
+                <div class="right2">
+                    <div class="right2a">
+                        <div class="right2a1"><img  class="right2a11" src="images/1.jpg"></div>
+                        <div class="right2a2">
+                            <div  class="right2a21">Anti-Violence</div>
+                            <div  class="right2a22">By @landon</div>
+                            <div  class="right2a23">Preventing violence, spreading peace</div>
+                            <div  class="right2a24">Members: 20</div>
+                        </div>
+                    </div>
+
+                    <div class="right2a">
+                        <div class="right2a1"><img  class="right2a11" src="images/7.jpg"></div>
+                        <div class="right2a2">
+                            <div  class="right2a21">EqualVoices</div>
+                            <div  class="right2a22">By @sap_</div>
+                            <div  class="right2a23">Love is the weapon that defeats hatred</div>
+                            <div  class="right2a24">Members: 45</div>
+                        </div>
+                    </div>
+
+                    <div class="right2a">
+                        <div class="right2a1"><img  class="right2a11" src="image/5.jpg"></div>
+                        <div class="right2a2">
+                            <div  class="right2a21">EndTheCycle</div>
+                            <div  class="right2a22">By @TheEternals</div>
+                            <div  class="right2a23">Choose kindness over cruelty</div>
+                            <div  class="right2a24 abc">Members: 32</div>
+                        </div>
+                    </div>
+
+                    <div class="right2a">
+                        <div class="right2a1"><img  class="right2a11" src="images/4.jpg"></div>
+                        <div class="right2a2">
+                            <div  class="right2a21">PeacefulPath</div>
+                            <div  class="right2a22">By @harmless harvest</div>
+                            <div  class="right2a23">In a world full of chaos, let's be calm</div>
+                            <div  class="right2a24">Members: 9</div>
+                        </div>
+                    </div>
+                </div>  
+                
+            
+
+
+
+            <div class="right3">
+                <div class="right3a"><button class="right3b right3bb">Helpers</button></div>
+                <div class="right3a"><button class="right3b">Advocates</button></div>
+                <div class="right3a"><button class="right3b">Health</button></div>
+                <div class="right3a"><button class="right3b">Gossips</button></div>
+                <div class="right3a"><button class="right3b">Hobbies</button></div>
+                <div class="right3a"><button class="right3b">Crafting</button></div>
+                <div class="right3a"><button class="right3b">Research</button></div>
+                <div class="right3a"><button class="right3b">Safety</button></div>
+                <div class="right3a"><button class="right3b">Empower</button></div>
+                <div class="right3a"><button class="right3b">Surviors</button></div>
+                <div class="right3a"><button class="right3b">Resources</button></div>
+            </div>
+
+            <div class="right2">
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="a/7.html.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">Anti-Violence</div>
+                        <div  class="right2a22">By @landon</div>
+                        <div  class="right2a23">Preventing violence, spreading peace</div>
+                        <div  class="right2a24">Members: 20</div>
+                    </div>
+                </div>
+
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="a/6.html.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">EqualVoices</div>
+                        <div  class="right2a22">By @sap_</div>
+                        <div  class="right2a23">Love is the weapon that defeats hatred</div>
+                        <div  class="right2a24">Members: 45</div>
+                    </div>
+                </div>
+
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="a/4.html.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">EndTheCycle</div>
+                        <div  class="right2a22">By @TheEternals</div>
+                        <div  class="right2a23">Choose kindness over cruelty</div>
+                        <div  class="right2a24 abc">Members: 32</div>
+                    </div>
+                </div>
+
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="a/3.html.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">PeacefulPath</div>
+                        <div  class="right2a22">By @harmless harvest</div>
+                        <div  class="right2a23">In a world full of chaos, let's be calm</div>
+                        <div  class="right2a24">Members: 9</div>
+                    </div>
+                </div>
+            </div>  
+            
+
+            <div class="right2">
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="Qwerty/6.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">Anti-Violence</div>
+                        <div  class="right2a22">By @landon</div>
+                        <div  class="right2a23">Preventing violence, spreading peace</div>
+                        <div  class="right2a24">Members: 20</div>
+                    </div>
+                </div>
+
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="Qwerty/4.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">EqualVoices</div>
+                        <div  class="right2a22">By @sap_</div>
+                        <div  class="right2a23">Love is the weapon that defeats hatred</div>
+                        <div  class="right2a24">Members: 45</div>
+                    </div>
+                </div>
+
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="Qwerty/3.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">EndTheCycle</div>
+                        <div  class="right2a22">By @TheEternals</div>
+                        <div  class="right2a23">Choose kindness over cruelty</div>
+                        <div  class="right2a24 abc">Members: 32</div>
+                    </div>
+                </div>
+
+                <div class="right2a">
+                    <div class="right2a1"><img  class="right2a11" src="Qwerty/1.jpg"></div>
+                    <div class="right2a2">
+                        <div  class="right2a21">PeacefulPath</div>
+                        <div  class="right2a22">By @harmless harvest</div>
+                        <div  class="right2a23">In a world full of chaos, let's be calm</div>
+                        <div  class="right2a24">Members: 9</div>
+                    </div>
+                </div>
+            </div>  
+            
+        </div>
+    </div>
+    
+</body>
+</html>

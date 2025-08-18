@@ -1,0 +1,15 @@
+<?php
+	$host='localhost';
+	$user='root';
+	$pws='';
+	$db='anti_violence';
+	$conn=mysqli_connect($host,$user,$pws,$db);
+	if($conn)
+	{
+		//echo"connection ok";
+	}
+	else
+	{
+		echo"connection failed";
+	}
+?>

@@ -1,0 +1,36 @@
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    position: fixed;
+    background-color: rgb(42, 42, 42);
+    position: fixed;
+    width: 320px;
+    top: 0;
+    bottom: 0;
+    left: 0;  
+    color: white;  
+        
+}
+
+.right{
+    background-color: rgb(57, 57, 57);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 320px;  
+
+}
+
+.right1a{
+    width: 17px;
+    margin-right: 20px;
+    
+}
+
+.right1b{
+    width: 200px;
+}

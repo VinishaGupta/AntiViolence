@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link href="about.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>About Us</h1>
+      <section id="contact-info">
+        <h2>Contact Information</h2>
+        <p>If you need immediate help or support, please contact:</p>
+        <ul>
+          <li>
+            National Domestic Violence Hotline:
+            <a href="tel:1-800-799-SAFE">1-800-799-SAFE (7233)</a>
+          </li>
+          <li>
+            Email:
+            <a href="mailto:info@domesticviolenceawareness.org"
+              >info@domesticviolenceawareness.org</a
+            >
+          </li>
+          <li>Address: 123 Main Street, City, State, Zip Code</li>
+        </ul>
+      </section>
+
+      <section id="message-form">
+        <h2>Send Us a Message</h2>
+        <form action="send_message.php" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea><br />
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,177 @@
+body{
+    background-image: url('bggg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.qwe{
+    background-color: rgb(128, 108, 148);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 40px;
+    width: 430px;
+    
+
+}
+
+.abc{
+    
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+.abc1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sub{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+.abc_1{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(214, 212, 212);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.abc_2{
+    margin-top: 15px;
+}
+
+p{
+    margin-top: -15px;
+    text-align: center;
+}
+
+.abc_3{
+    margin-top: -6px;
+}
+
+.abc_4{
+    margin-top: 25px;
+}
+
+.abc_5{
+    margin-bottom: 12px;
+}
+
+.abc_3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.abc_7{
+    width: 155px;
+    
+}
+
+.abc_8{
+    margin-right: 10px;
+}
+
+.abc_9{
+    margin-right: -11px;
+}
+
+.abc_10{
+    margin-top: 17px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#submit{
+    width: 300px;
+    background-color: rgb(214, 212, 212);
+    border: none;
+    padding: 10px 0px;
+    border-radius: 20px;
+
+}
+
+.terms{
+    font-size: 11px;
+    
+}
+
+.abc_4{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.abc_11{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.abc_6{
+    margin-top: -10px;
+}
+
+.abc_12{
+    font-size: 12px;
+    
+}
+
+.abc_13{
+    margin-top: 10px;
+}
+
+.abc_1{
+    outline: none;
+}
+
+.abc{
+    margin-top: 15px;
+}
+
+.qwe{
+    border-radius: 7px;
+    box-shadow: 2px 5px 25px rgba(0, 0, 0, 0.7);
+}
+
+.abc_14{
+    color: white;
+    cursor: pointer;
+}
+
+.abc_1{
+padding: 10px 5px;
+}
+
+.qwe{
+    margin-top: 100px;
+    background-color: rgba(204, 193, 215, 0.2);
+
+}
+
+input{
+    background-color: white;
+    color: black;
+}
+
+.abcd{
+    font-weight: bold;
+}
